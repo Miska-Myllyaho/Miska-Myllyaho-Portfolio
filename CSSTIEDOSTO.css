@@ -12,7 +12,7 @@ header {
     padding: 150px;
     text-align: center;
     font-size: 50px;
-    background-image: src="./Kuvat/Selfie.jpg" width="550";
+    background-image: url(https://cdn.pixabay.com/photo/2018/09/30/21/03/lake-3714660_960_720.jpg);
     color: aliceblue;
     text-decoration: underline;
 }
