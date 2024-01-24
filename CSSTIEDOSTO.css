@@ -18,6 +18,10 @@ header {
 }
 
 section{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    
     padding: 30px;
     background-color: rgb(9, 85, 25);
     width: 60%;
