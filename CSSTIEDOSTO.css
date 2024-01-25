@@ -4,31 +4,36 @@ body
     background-size: cover;
     background-attachment: scroll;
     background-repeat: no-repeat;
-    background-color: rgb(8, 8, 240);
-    color: aliceblue; 
+    background-color: rgb(30, 30, 30);
+    color: azure; 
+    background-image: url(Kuvat/Rain.gif);
 }
 
 header {
     padding: 150px;
     text-align: center;
     font-size: 50px;
-    background-image: url(https://cdn.pixabay.com/photo/2018/09/30/21/03/lake-3714660_960_720.jpg);
-    color: aliceblue;
+    background-image: url(Kuvat/BackgroundLake2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: azure;
     text-decoration: underline;
 }
 
 section{
     padding: 30px;
-    background-color: rgb(9, 85, 25);
+    background-color: rgb(55, 55, 55);
     width: 60%;
     max-width: 60%;
-    float: left;
+    margin: auto;
     font-size: 23px;
-    color: rgb(207, 207, 207);
+    color: azure;
     border-style: solid;
    border-width: medium;
     border-radius: 20px;
     margin-bottom: 60px;   
+    
 }
 
 h1{
@@ -44,14 +49,16 @@ h1{
     position: fixed;
     top: 0;
     right: 0;    
+    border: solid;
+    border-width: medium;
 }
 
 .Face{
     border: solid;
     border-width: medium;
-    background-color: black;
+    background-color: rgb(55, 55, 55);
     border-radius: 20px;
-    max-width: 100%;
+    max-width: 30%;
 }
 
 ul{
@@ -66,7 +73,7 @@ a{
 }
 
 a:link{
-    color: rgb(9, 255, 0); 
+    color: azure; 
     text-decoration: none;   
 }
 
@@ -76,18 +83,19 @@ a:visited{
 }
 
 a:hover{
-    color: rgb(255, 208, 0);
+    color: rgb(255, 0, 0);
 }
 
-.Experience{
-}
 
 img{
     border-radius: 20px;
+    max-width: 100%;
+    height: auto;
 }
+
 div.gallery {
     margin: 5px;
-    border: 1px solid #ccc;
+    border: 1px solid azure;
     float: left;
     width: 180px;
 }
