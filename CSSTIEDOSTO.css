@@ -48,8 +48,12 @@ section.projects{
     float:left;
     width: 40%;
     max-width: 40%;
-    height: 1%;
-    max-height: 1%;
+}
+
+section.projects2{
+    float:right;
+    width: 40%;
+    max-width: 40%;
 }
 
 h1{
@@ -128,4 +132,8 @@ div.gallery {
 div.desc {
     padding: 15px;
     text-align: center;
+}
+
+summary{
+    font-size: 30px;
 }
